@@ -5,7 +5,7 @@ export const SITE = {
   phoneHref: "tel:9843271411",
   email: "trashtrollshauling@gmail.com",
   area: "Durham, Raleigh, Roxboro, Hillsborough, NC & surrounding Triangle area",
-  logo: "https://cdn.builder.io/api/v1/image/assets%2Fb3de8ceb185e4b62a9b1fe9397125a09%2F0fd4df97997643c5b0f63cbc5badad56?format=webp&width=800&height=1200",
+  logo: "https://cdn.builder.io/api/v1/image/assets%2Fd1385a41d3b543b18e05f5318970656d%2Fafb9a7607a5942309505f350c739ee3e?format=webp&width=800&height=1200",
 };
 
 export const NAV = [

@@ -88,11 +88,7 @@ export default function Home() {
 
       {/* Stats */}
       <section className="bg-yellow py-14">
-        <div className="mx-auto grid max-w-6xl gap-8 px-4 text-center text-ink md:grid-cols-3">
-          <div>
-            <p className="font-display text-6xl"><Counter to={500} suffix="+" /></p>
-            <p className="mt-2 font-accent">Jobs Done</p>
-          </div>
+        <div className="mx-auto grid max-w-6xl gap-8 px-4 text-center text-ink md:grid-cols-2">
           <div>
             <p className="font-display text-6xl">Same-Day</p>
             <p className="mt-2 font-accent">Service Available</p>

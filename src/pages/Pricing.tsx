@@ -18,7 +18,7 @@ export default function Pricing() {
         <meta name="description" content="Transparent junk removal pricing in Durham & Raleigh. Small, medium, and full-load options. Free quotes — call 984-327-1411." />
         <meta property="og:title" content="Transparent Pricing — Trash Trolls" />
         <meta property="og:description" content="Three load sizes. No hidden fees. Free estimates." />
-        <link rel="canonical" href="/pricing" />
+        <link rel="canonical" href={`${SITE.url}/pricing`} />
       </Helmet>
       <PageHero kicker="Pricing" title="Transparent Pricing — No Surprises">
         <p>Pay for what you haul. Free quotes, fair rates, no hidden fees.</p>

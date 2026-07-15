@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet-async";
 import { Sofa, Package, Wrench, Trees, HardHat, Building2 } from "lucide-react";
 import { PageHero } from "@/components/site/PageHero";
 import { Reveal } from "@/components/site/Reveal";
+import { SITE } from "@/lib/site";
 
 const items = [
   { i: Sofa, t: "Old Furniture", d: "Couches, recliners, mattresses, bed frames, dressers, dining sets — we'll carry it out of any room, up or down stairs, and load it for you." },
@@ -21,7 +22,7 @@ export default function Services() {
         <meta name="description" content="Furniture disposal, garage cleanout, yard waste, construction debris hauling & full property cleanouts in Durham & Raleigh NC." />
         <meta property="og:title" content="Everything We Remove — Trash Trolls" />
         <meta property="og:description" content="Six service categories serving Durham, Raleigh & the Triangle area." />
-        <link rel="canonical" href="/services" />
+        <link rel="canonical" href={`${SITE.url}/services`} />
       </Helmet>
       <PageHero kicker="Services" title="Everything We Remove">
         <p>Six core service categories across Durham, Raleigh, and the surrounding Triangle area.</p>

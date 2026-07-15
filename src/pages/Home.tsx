@@ -31,7 +31,7 @@ export default function Home() {
         <meta name="description" content="Same-day junk removal in Durham, Raleigh, Roxboro & Hillsboro. Furniture, garage cleanouts, yard & construction debris. Call 984-327-1411 for a free quote." />
         <meta property="og:title" content="Junk Removal Durham NC & Raleigh NC | Trash Trolls" />
         <meta property="og:description" content="Fast, affordable junk hauling across the Triangle area." />
-        <link rel="canonical" href="/" />
+        <link rel="canonical" href={SITE.url} />
       </Helmet>
 
       {/* Hero */}

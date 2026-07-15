@@ -9,7 +9,7 @@ export default function Privacy() {
         <title>Privacy Policy — Trash Trolls Hauling & Junk Removal</title>
         <meta name="description" content="How Trash Trolls Hauling & Junk Removal handles your information." />
         <meta property="og:title" content="Privacy Policy" />
-        <link rel="canonical" href="/privacy" />
+        <link rel="canonical" href={`${SITE.url}/privacy`} />
       </Helmet>
       <PageHero kicker="Legal" title="Privacy Policy" />
       <section className="bg-background py-16">

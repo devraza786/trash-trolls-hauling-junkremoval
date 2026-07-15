@@ -20,7 +20,7 @@ export default function Contact() {
         <meta name="description" content="Get a free junk removal quote in Durham or Raleigh. Call 984-327-1411 or email trashtrollshauling@gmail.com." />
         <meta property="og:title" content="Contact Trash Trolls" />
         <meta property="og:description" content="Free quotes for junk removal across the Triangle." />
-        <link rel="canonical" href="/contact" />
+        <link rel="canonical" href={`${SITE.url}/contact`} />
       </Helmet>
       <PageHero kicker="Contact" title="Get in Touch — We'll Handle the Rest">
         <p>Tell us what's gotta go. We'll call you back with a fair quote.</p>

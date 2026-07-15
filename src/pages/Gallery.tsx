@@ -29,7 +29,6 @@ export default function Gallery() {
                 ) : (
                   <img src={g.url} alt={g.caption} loading="lazy" className="aspect-square w-full object-cover transition-transform hover:scale-105" />
                 )}
-                <figcaption className="bg-ink p-3 font-accent text-sm text-yellow">{g.caption}</figcaption>
               </figure>
             </Reveal>
           ))}

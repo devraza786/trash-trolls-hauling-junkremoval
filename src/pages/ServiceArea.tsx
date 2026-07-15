@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import { PageHero } from "@/components/site/PageHero";
 import { Reveal } from "@/components/site/Reveal";
 import { MapPin } from "lucide-react";
+import { SITE } from "@/lib/site";
 
 const cities = ["Durham", "Raleigh", "Roxboro", "Hillsborough", "Chapel Hill", "Cary", "Apex", "Morrisville", "Garner", "Clayton", "Wake Forest", "Carrboro", "Holly Springs", "Knightdale"];
 
@@ -13,7 +14,7 @@ export default function ServiceArea() {
         <meta name="description" content="We serve Durham, Raleigh, Roxboro, Hillsboro, Chapel Hill, Cary, Apex, Morrisville, Garner, Clayton, Wake Forest, and the surrounding Triangle area." />
         <meta property="og:title" content="Service Area — Trash Trolls" />
         <meta property="og:description" content="Triangle-wide junk removal coverage." />
-        <link rel="canonical" href="/service-area" />
+        <link rel="canonical" href={`${SITE.url}/service-area`} />
       </Helmet>
       <PageHero kicker="Service Area" title="We Come to You">
         <p>Serving Durham, Raleigh, and surrounding Triangle area communities.</p>

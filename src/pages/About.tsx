@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async";
 import { Zap, DollarSign, ShieldCheck } from "lucide-react";
 import { PageHero } from "@/components/site/PageHero";
 import { Reveal } from "@/components/site/Reveal";
-import { GALLERY } from "@/lib/site";
+import { GALLERY, SITE } from "@/lib/site";
 
 export default function About() {
   return (
@@ -12,7 +12,7 @@ export default function About() {
         <meta name="description" content="Meet the local Triangle crew behind Trash Trolls Hauling & Junk Removal. Fast, affordable, reliable junk removal across Durham and Raleigh NC." />
         <meta property="og:title" content="About Trash Trolls" />
         <meta property="og:description" content="Local Triangle-area junk removal crew." />
-        <link rel="canonical" href="/about" />
+        <link rel="canonical" href={`${SITE.url}/about`} />
       </Helmet>
       <PageHero kicker="About Us" title="We're the Trolls That Haul">
         <p>Locally owned. Triangle proud. Built to clear out anything you don't want anymore.</p>
